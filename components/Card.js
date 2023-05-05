@@ -1,6 +1,7 @@
 import React from 'react'
 import { FiArrowUpRight } from 'react-icons/fi'
 import styles from '@/styles/Card.module.css'
+import Image from 'next/image'
 const Card = () => {
   return (
     <div className={styles.card}>
@@ -24,9 +25,27 @@ const Card = () => {
                 }}
               >
                 <div style={{ marginRight: '10px' }}>
-                  <img src='/USDC.svg' alt='USDT' className={styles.token} />
-                  <img src='/WBTC.svg' alt='WBTC' className={styles.token} />
-                  <img src='/WETH.svg' alt='WETH' className={styles.token} />
+                  <Image
+                    src='/USDC.svg'
+                    alt='USDT'
+                    className={styles.token}
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src='/WBTC.svg'
+                    alt='WBTC'
+                    className={styles.token}
+                    width={30}
+                    height={30}
+                  />
+                  <Image
+                    src='/WETH.svg'
+                    alt='WETH'
+                    className={styles.token}
+                    width={30}
+                    height={30}
+                  />
                 </div>
               </div>
             </div>
