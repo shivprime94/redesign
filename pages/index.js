@@ -1,11 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-// import styles from '@/styles/Home.module.css'
 import Card from '@/components/Card'
 import Navbar from '@/components/Navbar'
 const inter = Inter({ subsets: ['latin'] })
-import styles from '../components/Card.module.css'
+import styles from '@/styles/Card.module.css'
 export default function Home() {
   return (
     <>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FiArrowUpRight } from 'react-icons/fi'
-import styles from './Card.module.css'
+import styles from '@/styles/Card.module.css'
 const Card = () => {
   return (
     <div className={styles.card}>
